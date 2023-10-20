@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="img/unnamed.png" >
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img class="logo" src="img/Logo1.jpg" alt="" />
+        </a>
+        <div class="ml-auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pandero Auto </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/sections/Cars/cars.html">Nuevos</a></li>
+                  <li><a class="dropdown-item" href="/sections/Sorteo/sorteo.html">Sorteo</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Nosotros">¿Quienes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Trabaja">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="contain">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Slider1.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slider2.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/Slider3.jpg" class="d-block w-100 carousel-image" alt="...">
+              </div>
+            </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item" id="Nosotros">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sobre Nosotros
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Somos una empresa administradora de fondos colectivos que lleva más de 54 años haciendo más fácil a nuestros asociados lograr su auto o casa propia. Formamos grupos de personas para que puedan alcanzar su meta mediante cuotas mensuales accesibles.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Misión
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              La misión de Pandero es proporcionar soluciones financieras accesibles y confiables a nuestros clientes, promoviendo la adquisición responsable de vehículos y contribuyendo al progreso y bienestar de las comunidades a las que servimos.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Visión
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Nuestra visión es ser líderes en la industria financiera automotriz, reconocidos por nuestra integridad, innovación y compromiso con la satisfacción del cliente. Aspiramos a ser la elección preferida de nuestros clientes al brindarles oportunidades de movilidad y desarrollo personal.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="marcas col-md-12 text-center">
+        <h2>
+          En pandero puedes adquirir
+          <p>todas estas marcas</p>
+        </h2>
+        
+        <div class="row container-fluid text-center">
+          <div class="col-md-3">
+            <img src="img/dfsk.png" alt="Marca 1">
+          </div>
+          <div class="col-md-3">
+            <img src="img/jaguar.png" alt="Marca 2">
+          </div>
+          <div class="col-md-3">
+            <img src="img/jinbei.png" alt="Marca 3">
+          </div>
+          <div class="col-md-3">
+            <img src="img/jmc.png" alt="Marca 4">
+          </div>
+          <div class="col-md-3">
+            <img src="img/karry-auto.png" alt="Marca 5">
+          </div>
+          <div class="col-md-3">
+            <img src="img/kyc.png" alt="Marca 6">
+          </div>
+          <div class="col-md-3">
+            <img src="img/porshe.png" alt="Marca 7">
+          </div>
+          <div class="col-md-3">
+            <img src="img/ssangyong.png" alt="Marca 8">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Sección de Redes Sociales -->
+          <div class="col-md-4">
+            <h3>Redes Sociales</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </div>
+          <!-- Sección de Dirección de Oficinas -->
+          <div class="col-md-4">
+            <h3>Dirección de Oficinas</h3>
+            <address>
+              <div>
+                <h4 >Region Lima</h4>                <p>Av. Dos de Mayo 382, San Isidro</p>
+              </div>
+              <div>
+                <h4>Region Norte</h4>
+                <p>Torres Paz 645 - Chiclayo
+                </p>
+              </div>
+              <div>
+                <h4>Region Sur</h4>
+                <p>Av. Cayma 402 Arequipa - Arequipa</p>
+              </div>
+            </address>
+          </div>
+          <!-- Sección de Trabaja con Nosotros -->
+          <div class="col-md-4" id="Trabaja">
+            <h3>Trabaja con Nosotros</h3>
+            <p>Únete a nuestro equipo y sé parte de nuestra misión . Envía tu CV a careers@pandero.com.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>

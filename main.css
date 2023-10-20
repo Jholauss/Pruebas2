@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.logo{
+  width: 30%;
+}
+nav{
+  height: 150px;
+  background-color:#0047BB;
+}
+.carousel-image {
+  max-height: 700px;}
+.marcas h2{
+  font-size: 40px;
+}
+.marcas p{
+  color: blue;
+font-weight: bold;
+}
+
+.footer {
+  background-color: #0047BB;
+  padding: 40px 0;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline; 
+}
+
+.footer address {
+  font-style: normal;
+  font-size: 16px;
+  
+}
+.footer address h4{
+  font-size: 16px;
+  color: orange;
+}
+.footer p {
+  font-size: 16px;
+}
+.col-md-4 {
+  padding-bottom: 20px;
+}
+.card{
+  height: 100%;
+}
+.card-body {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
